@@ -10,7 +10,7 @@ struct Pose {
 
   Header header;
 
-  Position point;
+  Position position;
 
   EulerAngleZYZ orientation_euler;
 
