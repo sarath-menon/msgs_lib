@@ -3,6 +3,7 @@
 add_library(quadcopter_msgs_lib INTERFACE)
 
 target_sources(quadcopter_msgs_lib INTERFACE
+msgs/PositionCommand.h
 msgs/AttitudeCommand.h
 msgs/AttitudeRateCommand.h
 msgs/MotorCommand.h
