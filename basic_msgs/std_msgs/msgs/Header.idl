@@ -1,9 +1,9 @@
 #pragma once
-#include <string>
+
 
 struct Header {
 
   long timestamp;
-  std::string id;
+  string id;
   
 };
