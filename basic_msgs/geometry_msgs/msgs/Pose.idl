@@ -1,0 +1,16 @@
+#pragma once
+#include "EulerAngleZYX.idl"
+#include "Position.idl"
+#include "Quaternion.idl"
+#include "std_msgs/msgs/Header.idl"
+
+struct Pose {
+
+  Header header;
+
+  Position position;
+
+  EulerAngleZYZ orientation_euler;
+
+  Quaternion orientation_quat;
+};

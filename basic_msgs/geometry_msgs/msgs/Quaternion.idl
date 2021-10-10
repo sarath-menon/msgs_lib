@@ -1,7 +1,5 @@
 #pragma once
 
-namespace msgs {
-
 struct Quaternion {
 
   float x;
@@ -10,5 +8,3 @@ struct Quaternion {
 
   float w;
 };
-
-} // namespace msgs
