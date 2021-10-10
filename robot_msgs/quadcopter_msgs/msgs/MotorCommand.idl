@@ -1,0 +1,10 @@
+#pragma once
+#include "actuator_msgs/msgs/MotorSpeed.idl"
+#include "std_msgs/msgs/Header.idl"
+
+struct MotorCommand {
+
+  Header header;
+
+  MotorSpeed speed[4];
+};

@@ -1,8 +1,7 @@
 #pragma once
-#include <string>
 
 struct Header {
 
-  uint64_t timestamp;
-  std::string id;
+  long timestamp;
+  string id;
 };

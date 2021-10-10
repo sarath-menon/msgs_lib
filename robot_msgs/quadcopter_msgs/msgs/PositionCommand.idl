@@ -1,0 +1,10 @@
+#pragma once
+#include "geometry_msgs/msgs/Position.idl"
+#include "std_msgs/msgs/Header.idl"
+
+struct PositionCommand {
+
+  Header header;
+
+  Position position;
+};
