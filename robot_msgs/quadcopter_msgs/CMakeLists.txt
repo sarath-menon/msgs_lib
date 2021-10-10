@@ -7,6 +7,7 @@ msgs/PositionCommand.idl
 msgs/AttitudeCommand.idl
 msgs/AttitudeRateCommand.idl
 msgs/MotorCommand.idl
+msgs/Mocap.idl
 )
 
 
