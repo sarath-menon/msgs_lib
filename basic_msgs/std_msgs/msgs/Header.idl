@@ -1,7 +1,8 @@
 #pragma once
+#include <string>
 
 struct Header {
 
   long timestamp;
-  string id;
+  std::string id;
 };
