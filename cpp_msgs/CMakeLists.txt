@@ -2,7 +2,7 @@
 
 add_library(msgs_lib INTERFACE)
 
-target_include_directories(communication_common_lib INTERFACE
+target_include_directories(msgs_lib INTERFACE
 basic_msgs
 robot_msgs
 )
