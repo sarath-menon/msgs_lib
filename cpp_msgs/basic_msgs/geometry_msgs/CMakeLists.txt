@@ -3,10 +3,10 @@
 add_library(geometry_msgs_lib INTERFACE)
 
 target_sources(geometry_msgs_lib INTERFACE
-msgs/EulerAngleZYX.idl
-msgs/Pose.idl
-msgs/Position.idl
-msgs/Quaternion.idl
+msgs/EulerAngleZYX.h
+msgs/Pose.h
+msgs/Position.h
+msgs/Quaternion.h
 )
 
 

@@ -1,6 +1,7 @@
 #pragma once
-#include "actuator_msgs/msgs/MotorSpeed.idl"
-#include "std_msgs/msgs/Header.idl"
+
+#include "MotorSpeed.idl"
+#include "Header.idl"
 
 struct MotorCommand {
 

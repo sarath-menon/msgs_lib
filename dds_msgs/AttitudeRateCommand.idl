@@ -1,5 +1,6 @@
 #pragma once
-#include "std_msgs/msgs/Header.idl"
+
+#include "Header.idl"
 
 struct AttitudeRateCommand {
 

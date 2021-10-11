@@ -1,9 +1,7 @@
 #pragma once
 
-
 struct Header {
 
   long timestamp;
   string id;
-  
 };

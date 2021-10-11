@@ -1,8 +1,9 @@
 #pragma once
+
 #include "EulerAngleZYX.idl"
+#include "Header.idl"
 #include "Position.idl"
 #include "Quaternion.idl"
-#include "std_msgs/msgs/Header.idl"
 
 struct Pose {
 
