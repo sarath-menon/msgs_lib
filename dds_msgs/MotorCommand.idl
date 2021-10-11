@@ -1,11 +1,10 @@
 #pragma once
 
-#include "MotorSpeed.idl"
 #include "Header.idl"
 
-struct MotorCommand {
+struct QuadMotorCommand {
 
   Header header;
 
-  MotorSpeed speed[4];
+  float motorspeed[4];
 };

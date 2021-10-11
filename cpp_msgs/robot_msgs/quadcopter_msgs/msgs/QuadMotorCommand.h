@@ -4,11 +4,11 @@
 
 namespace msgs {
 
-struct MotorCommand {
+struct QuadMotorCommand {
 
   Header header;
 
-  MotorSpeed speed[4];
+  float motorspeed[4];
 };
 
 } // namespace msgs
