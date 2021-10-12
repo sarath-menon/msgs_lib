@@ -1,0 +1,12 @@
+#pragma once
+#include "Header.idl"
+
+struct MotorSpeed {
+
+  Header header;
+
+  float thrust;
+  float roll_torque;
+  float pitch_torque;
+  float yaw_torque;
+};

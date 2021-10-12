@@ -3,11 +3,14 @@
 
 namespace msgs {
 
-struct QuadMotorCommand {
+struct ThrustTorqueCommand {
 
   Header header;
 
-  float motorspeed[4];
+  float thrust;
+  float roll_torque;
+  float pitch_torque;
+  float yaw_torque;
 };
 
 } // namespace msgs

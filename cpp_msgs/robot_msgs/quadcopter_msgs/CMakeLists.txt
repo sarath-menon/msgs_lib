@@ -8,6 +8,7 @@ msgs/AttitudeCommand.h
 msgs/AttitudeRateCommand.h
 msgs/MotorCommand.h
 msgs/Mocap.h
+msgs/ThrustTorqueCommand.h
 )
 
 
