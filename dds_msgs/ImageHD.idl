@@ -5,7 +5,7 @@ struct ImageHD {
 
   Header header;
 
-  octet frame[3000];
+  octet frame[300000];
 };
 
 //3110400
