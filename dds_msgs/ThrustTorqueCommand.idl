@@ -1,7 +1,7 @@
 #pragma once
 #include "Header.idl"
 
-struct MotorSpeed {
+struct ThrustTorqueCommand {
 
   Header header;
 
