@@ -1,0 +1,9 @@
+#pragma once
+#include "Header.idl"
+
+struct ImageHD {
+
+  Header header;
+
+  octet frame[2039040];
+};
