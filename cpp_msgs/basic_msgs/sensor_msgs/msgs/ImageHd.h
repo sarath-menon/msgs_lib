@@ -7,7 +7,7 @@ struct ImageHD {
 
   Header header;
 
-  uint8_t frame[2039040];
+  uint8_t frame[1080 * 720 * 3];
 };
 
 } // namespace msgs
