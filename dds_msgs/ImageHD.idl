@@ -1,11 +1,12 @@
 #pragma once
 #include "Header.idl"
 
+const long hd_img_size = 1080*720*3;
+
 struct ImageHD {
 
   Header header;
 
-  octet frame[1080*720*3];
+  octet frame[hd_img_size];
 };
 
-//3110400

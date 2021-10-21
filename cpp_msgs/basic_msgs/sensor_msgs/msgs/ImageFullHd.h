@@ -3,13 +3,13 @@
 
 namespace msgs {
 
-constexpr static int hd_img_size = 1920 * 1080 * 3;
+constexpr static int fullhd_img_size = 1920 * 1080 * 3;
 
-struct ImageHD {
+struct ImageFullHD {
 
   Header header;
 
-  uint8_t frame[hd_img_size];
+  uint8_t frame[fullhd_img_size];
 
   // Array size = rows * columns * channels in image
 };
