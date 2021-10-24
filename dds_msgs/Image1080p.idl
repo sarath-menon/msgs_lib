@@ -4,7 +4,7 @@
 
 module idl_msg{
 
-struct ImageFullHD {
+struct Image1080p {
 
   Header header;
 
