@@ -1,5 +1,7 @@
 #pragma once
 
+module idl_msg{
+
 struct Quaternion {
 
   float x;
@@ -7,4 +9,6 @@ struct Quaternion {
   float z;
 
   float w;
+};
+
 };

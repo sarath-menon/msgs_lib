@@ -2,6 +2,8 @@
 
 #include "Header.idl"
 
+module idl_msg{
+
 struct AttitudeCommand {
 
   Header header;
@@ -9,4 +11,6 @@ struct AttitudeCommand {
   float roll;
   float pitch;
   float yaw;
+};
+
 };

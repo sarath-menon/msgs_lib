@@ -1,11 +1,14 @@
 #pragma once
 #include "Header.idl"
 
-const long fullhd_img_size = 1920*1080*3;
+
+module idl_msg{
 
 struct ImageFullHD {
 
   Header header;
 
-  octet frame[fullhd_img_size];
+  octet frame[1920*1080*3];
+};
+
 };

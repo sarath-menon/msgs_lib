@@ -3,6 +3,8 @@
 #include "Header.idl"
 #include "Pose.idl"
 
+module idl_msg{
+
 struct Mocap {
 
   Header header;
@@ -10,4 +12,6 @@ struct Mocap {
   Pose pose;
 
   float latency;
+};
+
 };

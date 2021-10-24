@@ -3,9 +3,13 @@
 #include "Position.idl"
 #include "Header.idl"
 
+module idl_msg{
+
 struct PositionCommand {
 
   Header header;
 
   Position position;
+};
+
 };

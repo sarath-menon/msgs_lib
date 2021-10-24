@@ -1,8 +1,12 @@
 #pragma once
 
+module idl_msg{
+
 struct EulerAngleZYZ {
 
   float roll;
   float pitch;
   float yaw;
+};
+
 };

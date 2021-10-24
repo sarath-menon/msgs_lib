@@ -1,12 +1,14 @@
 #pragma once
+
 #include "Header.idl"
 
-const long hd_img_size = 1280*720*3;
+module idl_msg{
 
 struct ImageHD {
 
   Header header;
 
-  octet frame[hd_img_size];
+  octet frame[1280 * 720 * 3];
 };
 
+};
