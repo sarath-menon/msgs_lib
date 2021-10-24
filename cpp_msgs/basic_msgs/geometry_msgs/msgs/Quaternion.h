@@ -1,6 +1,6 @@
 #pragma once
 
-namespace msgs {
+namespace cpp_msg {
 
 struct Quaternion {
 
@@ -11,4 +11,4 @@ struct Quaternion {
   float w;
 };
 
-} // namespace msgs
+} // namespace cpp_msg

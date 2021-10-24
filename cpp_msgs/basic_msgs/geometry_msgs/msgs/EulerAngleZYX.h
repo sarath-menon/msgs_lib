@@ -1,6 +1,6 @@
 #pragma once
 
-namespace msgs {
+namespace cpp_msg {
 
 struct EulerAngleZYZ {
 
@@ -9,4 +9,4 @@ struct EulerAngleZYZ {
   float yaw;
 };
 
-} // namespace msgs
+} // namespace cpp_msg

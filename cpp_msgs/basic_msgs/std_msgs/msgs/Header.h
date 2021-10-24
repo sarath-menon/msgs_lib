@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-namespace msgs {
+namespace cpp_msg {
 
 struct Header {
 
@@ -9,4 +9,4 @@ struct Header {
   std::string id;
 };
 
-} // namespace msgs
+} // namespace cpp_msg

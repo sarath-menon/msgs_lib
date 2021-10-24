@@ -1,6 +1,6 @@
 #pragma once
 
-namespace msgs {
+namespace cpp_msg {
 
 struct Position {
 
@@ -9,4 +9,4 @@ struct Position {
   float z;
 };
 
-} // namespace msgs
+} // namespace cpp_msg

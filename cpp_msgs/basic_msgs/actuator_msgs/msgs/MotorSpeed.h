@@ -1,10 +1,10 @@
 #pragma once
 
-namespace msgs {
+namespace cpp_msg {
 
 struct MotorSpeed {
 
   float motor_speed;
 };
 
-} // namespace msgs
+} // namespace cpp_msg

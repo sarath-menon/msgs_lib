@@ -1,7 +1,7 @@
 #pragma once
 #include "std_msgs/msgs/Header.h"
 
-namespace msgs {
+namespace cpp_msg {
 
 struct AttitudeCommand {
 
@@ -12,4 +12,4 @@ struct AttitudeCommand {
   float yaw;
 };
 
-} // namespace msgs
+} // namespace cpp_msg

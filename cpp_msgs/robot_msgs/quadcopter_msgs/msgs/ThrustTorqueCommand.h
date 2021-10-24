@@ -1,7 +1,7 @@
 #pragma once
 #include "std_msgs/msgs/Header.h"
 
-namespace msgs {
+namespace cpp_msg {
 
 struct ThrustTorqueCommand {
 
@@ -13,4 +13,4 @@ struct ThrustTorqueCommand {
   float yaw_torque;
 };
 
-} // namespace msgs
+} // namespace cpp_msg

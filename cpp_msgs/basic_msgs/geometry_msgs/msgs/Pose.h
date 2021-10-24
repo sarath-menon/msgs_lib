@@ -4,7 +4,7 @@
 #include "Quaternion.h"
 #include "std_msgs/msgs/Header.h"
 
-namespace msgs {
+namespace cpp_msg {
 
 struct Pose {
 
@@ -17,4 +17,4 @@ struct Pose {
   Quaternion orientation_quat;
 };
 
-} // namespace msgs
+} // namespace cpp_msg
