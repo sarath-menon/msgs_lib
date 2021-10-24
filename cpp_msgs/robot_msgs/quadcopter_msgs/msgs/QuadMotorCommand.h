@@ -1,7 +1,7 @@
 #pragma once
 #include "std_msgs/msgs/Header.h"
 
-namespace msgs {
+namespace cpp_msg {
 
 struct QuadMotorCommand {
 
@@ -10,4 +10,4 @@ struct QuadMotorCommand {
   float motorspeed[4];
 };
 
-} // namespace msgs
+} // namespace cpp_msg

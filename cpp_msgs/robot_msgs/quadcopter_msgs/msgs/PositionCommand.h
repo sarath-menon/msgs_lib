@@ -2,7 +2,7 @@
 #include "geometry_msgs/msgs/Position.h"
 #include "std_msgs/msgs/Header.h"
 
-namespace msgs {
+namespace cpp_msg {
 
 struct PositionCommand {
 
@@ -11,4 +11,4 @@ struct PositionCommand {
   Position position;
 };
 
-} // namespace msgs
+} // namespace cpp_msg
