@@ -10,6 +10,8 @@ struct PositionCommand {
   Header header;
 
   Position position;
+
+  float yaw;
 };
 
 };
