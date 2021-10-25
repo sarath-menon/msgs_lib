@@ -4,11 +4,13 @@
 
 namespace cpp_msg {
 
-struct PositionCommand {
+struct QuadPositionCmd {
 
   Header header;
 
   Position position;
+
+  float yaw_angle;
 };
 
 } // namespace cpp_msg

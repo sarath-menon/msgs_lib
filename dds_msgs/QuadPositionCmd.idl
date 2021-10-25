@@ -11,7 +11,7 @@ struct QuadPositionCmd {
 
   Position position;
 
-  float yaw;
+  float yaw_angle;
 };
 
 };
