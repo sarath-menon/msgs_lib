@@ -5,7 +5,7 @@
 
 module idl_msg{
 
-struct PositionCommand {
+struct QuadPositionCmd {
 
   Header header;
 
