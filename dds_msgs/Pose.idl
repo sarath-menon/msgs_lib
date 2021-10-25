@@ -13,7 +13,7 @@ struct Pose {
 
   Position position;
 
-  EulerAngleZYZ orientation_euler;
+  EulerAngleZYX orientation_euler;
 
   Quaternion orientation_quat;
 };
