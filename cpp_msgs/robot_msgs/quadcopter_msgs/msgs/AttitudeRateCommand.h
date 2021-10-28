@@ -7,6 +7,7 @@ struct AttitudeRateCommand {
 
   Header header;
 
+  float thrust;
   float roll_rate;
   float pitch_rate;
   float yaw_rate;

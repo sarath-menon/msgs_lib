@@ -7,6 +7,7 @@ struct AttitudeCommand {
 
   Header header;
 
+  float thrust;
   float roll;
   float pitch;
   float yaw;
