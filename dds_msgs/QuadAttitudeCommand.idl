@@ -4,14 +4,14 @@
 
 module idl_msg{
 
-struct AttitudeRateCommand {
+struct QuadAttitudeCommand {
 
   Header header;
 
   float thrust;
-  float roll_rate;
-  float pitch_rate;
-  float yaw_rate;
+  float roll;
+  float pitch;
+  float yaw;
 };
 
 };

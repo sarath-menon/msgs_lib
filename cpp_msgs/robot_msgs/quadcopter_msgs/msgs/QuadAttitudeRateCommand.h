@@ -3,7 +3,7 @@
 
 namespace cpp_msg {
 
-struct AttitudeRateCommand {
+struct QuadAttitudeRateCommand {
 
   Header header;
 
